@@ -5,7 +5,7 @@ services:
     ports: []
     environment:
       - ICS_URL=
-      - BAIKAL_URL=
+      - CALDAV_URL=
       - USERNAME=
       - PASSWORD=
 networks: {}
