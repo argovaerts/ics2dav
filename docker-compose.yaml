@@ -1,0 +1,11 @@
+services:
+  ics2dav:
+    restart: unless-stopped
+    image: argovaerts/ics2dav:latest
+    ports: []
+    environment:
+      - ICS_URL=
+      - BAIKAL_URL=
+      - USERNAME=
+      - PASSWORD=
+networks: {}

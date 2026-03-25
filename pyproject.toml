@@ -1,0 +1,18 @@
+[project]
+name = "ics2dav"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "caldav>=3.1.0",
+    "icalendar>=7.0.3",
+    "requests>=2.32.5",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+ics2dav = "main:main"
