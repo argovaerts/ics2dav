@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: argovaerts/ics2caldav:latest
+          tags: argovaerts/ics2dav:latest
