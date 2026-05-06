@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "caldav>=3.1.0",
-    "icalendar>=7.0.3",
+    "icalendar>=7.1.0",
     "requests>=2.32.5",
 ]
 
