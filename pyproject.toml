@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "caldav>=3.1.0",
     "icalendar>=7.0.3",
-    "requests>=2.32.5",
+    "requests>=2.34.1",
 ]
 
 [build-system]
