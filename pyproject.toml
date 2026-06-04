@@ -5,7 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "caldav>=3.1.0",
+    "caldav>=3.2.1",
     "icalendar>=7.0.3",
     "requests>=2.32.5",
 ]
